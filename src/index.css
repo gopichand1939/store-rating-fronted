@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Smooth transitions & scroll */
+body {
+  @apply bg-white text-gray-800 font-sans antialiased;
+  scroll-behavior: smooth;
+}
